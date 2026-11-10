@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    height: 100vh;
+}
+
+.blue {background-color: #00f;}
+.red {background-color: #f00;}
+.green {background-color: green;}
+
+header , footer {
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+    height: 100px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+
+header:hover {
+    color: gold;
+    background-color: #333;
+}
+
+footer{
+    background-color: #333;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    font-size: 3rem;
+    font-family: monospace;
+}
+footer:hover{
+    background-color: bisque;
+}
+footer a {
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+a:visited {
+    color: whitesmoke;
+}
+
+.social {
+    background-color: purple;
+    font-size: inherit;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+    border-radius: 50px;
+    border: 3px solid gold;
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+nav {
+    border: 2px solid #333;
+    margin: 0 auto 1rem;
+    border-radius: 2rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding: 1rem;
+    background-color: orange;
+    border-radius: 2rem 2rem 0 0;
+    color: gold;
+    text-decoration: underline;
+}
+h2:hover{
+    font-size: 4rem;
+    padding: 1rem;
+    background-color: gold;
+    text-decoration: underline;
+    color: orange;
+    border-radius: 2rem 2rem 0 0;   
+}    
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-top: 2px solid #333;
+}
+
+li a {
+    display: block;
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover , 
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
+
+p {
+    font-size: 3rem;
+    color: goldenrod;
+    margin-top: 1em;
+}
+
+p a ,
+p a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+p a:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
